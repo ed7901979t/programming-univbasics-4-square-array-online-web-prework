@@ -1,3 +1,6 @@
-def square_array(array)
-  # your code here
-end
+ numbers = [1,2,3]
+ counter = 0   
+ while numbers[counter] do 
+   item=Math.sqrt(counter)
+   puts "The results are #{item}"
+ end
